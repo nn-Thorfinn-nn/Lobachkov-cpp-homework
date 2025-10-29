@@ -1,16 +1,10 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
-#include <stdio.h>
-
-int main()
-{
-    printf("Hello World");
-
-    return 0;
+#include <iostream> //подключение библиотеки с вводом-выводом (cin, cout)
+#include <string> //для удобства
+using namespace std; 
+int main() //начало выполнения
+{ 
+      string userName; 
+    cin >> userName; //ввод имени
+    cout << "Здравствуйте, " + userName + "!"; //вывод приветственного сообщения
+    return 0; //завершение программы 
 }
